@@ -1,15 +1,14 @@
 {
-<<<<<<< HEAD
-  "name": "Introduction_to_Node",
-=======
   "name": "learning_node",
->>>>>>> 245ffc65a45d0828a8ebb789af4b011ffadb2e38
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
